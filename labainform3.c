@@ -3,6 +3,8 @@
 #include <string.h>
 #include <ctype.h>
 
+//4 Р’РђР РРђРќРў
+
 #define MAX_LENGTH 1000
 #define RESULT_LENGTH 11 
 
@@ -68,13 +70,13 @@ int main()
 
     if (input_error != 0) 
     {
-        printf("Ошибка labainf3.", input_error);
+        printf("ГЋГёГЁГЎГЄГ  labainf3.", input_error);
         return 1;
     }
 
     if (output_error != 0) 
     {
-        printf("Ошибка labaresult.txt.", output_error);
+        printf("ГЋГёГЁГЎГЄГ  labaresult.txt.", output_error);
         if (input_file != NULL) 
         {
             fclose(input_file);
@@ -99,7 +101,8 @@ int main()
     fclose(input_file);
     fclose(output_file);
 
-    printf("Обработка завершена\n");
+    printf("ГЋГЎГ°Г ГЎГ®ГІГЄГ  Г§Г ГўГҐГ°ГёГҐГ­Г \n");
 
     return 0;
+
 }
