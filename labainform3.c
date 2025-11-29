@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 
-//4 ВАРИАНТ
+//2 ВАРИАНТ
 
 #define MAX_LENGTH 1000
 #define RESULT_LENGTH 11 
@@ -106,3 +106,4 @@ int main()
     return 0;
 
 }
+
